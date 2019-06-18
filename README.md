@@ -22,6 +22,7 @@
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Git Zsh](https://github.com/eriknomitch/g)
 - [PRWD](https://github.com/eriknomitch/prwd)
+- [Media Key Forwarder](https://github.com/milgra/macmediakeyforwarder)
 
 ### Themes
 
@@ -30,3 +31,13 @@
 - VSCode: Tomorrow Night Bright Theme
 - Slack Sidebar: See [slack_tomorrow_theme](./slack_tomorrow_theme)
 - Bear Theme: Dieci, App icon matches theme, Avenir Next,
+
+### Mac Settings
+
+- General: Dark Theme, Gray Accent, Graphine Highlight, Firefox Default web browser
+- Dock: Hide unless scrolling over, Remove unwanted apps
+- Display: Night Shift On, Resolution Scaled (1 smaller than default)
+- Spotlight: Ctrl+Cmd+Space as Hotkey
+- Trackpad: Non-natural scroll direction
+- Security & Privacy: FileVault on
+- Network - Advanced - DNS: "1.1.1.1", "1.0.0.1", "4.4.4.4", "8.8.8.8"
