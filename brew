@@ -1,11 +1,13 @@
 asdf
 bat
 coreutils
+cowsay
 direnv
 envchain
 ffmpeg
 jpeg
 jq
+lolcat
 make
 openssl
 readline
