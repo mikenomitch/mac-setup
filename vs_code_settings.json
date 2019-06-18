@@ -1,0 +1,51 @@
+{
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "sublimeTextKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": false,
+  "workbench.colorTheme": "Tomorrow Night Bright",
+  "workbench.startupEditor": "none",
+  "git.enableSmartCommit": true,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "explorer.autoReveal": false,
+  "docker.showExplorer": false,
+  "extensions.ignoreRecommendations": false,
+  "code-runner.clearPreviousOutput": true,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.mode.active": "zen",
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  },
+  "search.exclude": {
+    "./tmp/**": true,
+    "**/node_modules/**": true,
+    "**/tmp": true,
+    "tmp": true
+  },
+  "files.exclude": {
+    "**/node_modules/**": true,
+    "**/tmp/*": true,
+    "**/tmp/**": true
+  },
+  "editor.formatOnSave": true,
+  "go.useLanguageServer": true,
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none"
+}
