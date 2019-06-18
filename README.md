@@ -1,6 +1,6 @@
 # Personal Setup for Mac OS
 
-This is a collection of resources to help set up a Mac OS machine in the style I like.
+This is a collection of resources to help set up a Mac OS machine.
 
 ## Contents
 
