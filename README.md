@@ -1,7 +1,10 @@
 # Personal Setup for Mac OS
 
+This is a collection of resources to help set up a Mac OS machine in the style I like.
+
 ## Contents
 
+- [Web Based Installs](./web_installs.md)
 - [Brew Installs](./brew)
 - [Brew Cask Installs](./casks)
 - [Mac App Store Installs](./mac_app_store)
@@ -14,15 +17,7 @@
 - [ASDF Plugins](./asdf_plugins)
 - [Slack Theme](./slack_tomorrow_theme)
 
-## Misc Config
-
-## Installs via web or git
-
-- [Homebrew](https://brew.sh/)
-- [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [Git Zsh](https://github.com/eriknomitch/g)
-- [PRWD](https://github.com/eriknomitch/prwd)
-- [Media Key Forwarder](https://github.com/milgra/macmediakeyforwarder)
+## Misc Config Notes
 
 ### Themes
 
