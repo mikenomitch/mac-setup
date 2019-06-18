@@ -1,3 +1,4 @@
+clojure
 consul
 elixir
 erlang
@@ -5,9 +6,11 @@ golang
 java
 nodejs
 nomad
-ocaml
 packer
+postgres
 python
 ruby
+rust
 terraform
 vault
+yarn

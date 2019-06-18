@@ -1,4 +1,4 @@
-# Personal Setup for OSX Mac
+# Personal Setup for Mac OSX
 
 ## Contents
 
@@ -18,14 +18,15 @@
 
 ## Installs via web or git
 
-- Homebrew [https://brew.sh/]
-- Oh My Zsh [https://github.com/robbyrussell/oh-my-zsh]
-- Git Zsh [https://github.com/eriknomitch/g]
-- PRWD [https://github.com/eriknomitch/prwd]
+- [Homebrew](https://brew.sh/)
+- [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [Git Zsh](https://github.com/eriknomitch/g)
+- [PRWD](https://github.com/eriknomitch/prwd)
 
 ### Themes
 
 - Mac: Dark Theme, Gray Accent, Graphine Highlight
 - Firefox: Default Dark Theme
 - VSCode: Tomorrow Night Bright Theme
-- Slack Sidebar: See slack_tomorrow_theme file
+- Slack Sidebar: See [slack_tomorrow_theme](./slack_tomorrow_theme)
+- Bear Theme: Dieci, App icon matches theme, Avenir Next,
