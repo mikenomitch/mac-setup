@@ -1,4 +1,4 @@
-# Personal Setup for Mac OSX
+# Personal Setup for Mac OS
 
 ## Contents
 
