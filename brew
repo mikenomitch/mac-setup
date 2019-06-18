@@ -7,7 +7,6 @@ ffmpeg
 jpeg
 jq
 make
-nvm
 openssl
 readline
 socat

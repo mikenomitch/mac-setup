@@ -57,22 +57,16 @@ export DATABASE_USER=mike
 source $HOME/.g/g.zsh
 source $HOME/.prwd/prwd.zsh
 
-# == ASDF (All except node) ==
+# == ASDF ==
 export PATH=$PATH:/Applications
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
-# == NODE VERSIONING ==
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
-
 export PATH=$PATH:$HOME/bin
+
+# == ASDF Java ==
+. ~/.asdf/plugins/java/asdf-java-wrapper.zsh
 
 # == GO SETUP ==
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-
-# == ASDF Java - ugh ==
-. ~/.asdf/plugins/java/asdf-java-wrapper.zsh
