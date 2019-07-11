@@ -5,6 +5,7 @@ cowsay
 direnv
 envchain
 ffmpeg
+gpg
 jpeg
 jq
 lolcat
