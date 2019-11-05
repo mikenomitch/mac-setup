@@ -1,6 +1,4 @@
 {
-  "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -46,6 +44,28 @@
   },
   "editor.formatOnSave": true,
   "go.useLanguageServer": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "workbench.statusBar.visible": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.activityBar.visible": false,
+  "zenMode.fullScreen": false,
+  "workbench.editor.labelFormat": "short",
+  "window.titleBarStyle": "native",
   "breadcrumbs.enabled": false,
-  "editor.renderWhitespace": "none"
+  "workbench.editor.showIcons": false,
+  "workbench.editor.swipeToNavigate": true,
+  "workbench.tips.enabled": false,
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": false,
+  "elixir.projectPath": "./api",
+  "elixirLS.projectDir": "./api",
+  "npm.enableTouchbar": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "haskero.intero.ghciOptions": [],
+  "customizeUI.activityBar": "regular",
+  "customizeUI.titleBar": "inline",
+  "customizeUI.stylesheet": {
+    ".editor-actions": "display: none !important;"
+  }
 }
