@@ -35,4 +35,5 @@ This is a collection of resources to help set up a Mac OS machine.
 - Spotlight: Ctrl+Cmd+Space as Hotkey
 - Trackpad: Non-natural scroll direction
 - Security & Privacy: FileVault on
-- Network - Advanced - DNS: "1.1.1.1", "1.0.0.1", "4.4.4.4", "8.8.8.8"
+- Network - Advanced - DNS: "1.1.1.1", "1.0.0.1", "8.8.8.8", "8.8.4.4"
+- XCode tools (sans XCode) `xcode-select --install`
