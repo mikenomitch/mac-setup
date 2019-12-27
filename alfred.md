@@ -1,0 +1,4 @@
+- Appearance: Alfred Dark
+- Features -> Terminal -> Custom Application -> [Script](./alfred_terminal_script)
+- Features -> Web Search -> Change shortcuts to single letters
+- Snippets Command -> Alt + Shift + C
