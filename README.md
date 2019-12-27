@@ -34,6 +34,7 @@ This is a collection of resources to help set up a Mac OS machine.
 - Display: Night Shift On, Resolution Scaled (1 smaller than default)
 - Spotlight: Ctrl+Cmd+Space as Hotkey
 - Trackpad: Non-natural scroll direction
+- Keyboard: Shortcuts -> "Use keyboard navigation to move focus between controls"
 - Security & Privacy: FileVault on
 - Network - Advanced - DNS: "1.1.1.1", "1.0.0.1", "8.8.8.8", "8.8.4.4"
 - XCode tools (sans XCode) `xcode-select --install`
