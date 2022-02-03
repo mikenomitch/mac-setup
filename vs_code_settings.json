@@ -13,11 +13,8 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": false,
-  "workbench.colorTheme": "Tomorrow Night Bright",
   "workbench.startupEditor": "none",
   "git.enableSmartCommit": true,
-  "editor.minimap.enabled": false,
-  "window.zoomLevel": 1,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "explorer.autoReveal": false,
@@ -33,16 +30,19 @@
   },
   "search.exclude": {
     "./tmp/**": true,
+    "\"**/*.bs.js": true,
+    "**/.bs.js": true,
     "**/node_modules/**": true,
     "**/tmp": true,
     "tmp": true
   },
   "files.exclude": {
+    "\"**/*.bs.js": true,
+    "**/.bs.js": true,
     "**/node_modules/**": true,
     "**/tmp/*": true,
     "**/tmp/**": true
   },
-  "editor.formatOnSave": true,
   "go.useLanguageServer": true,
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
@@ -52,14 +52,11 @@
   "zenMode.fullScreen": false,
   "workbench.editor.labelFormat": "short",
   "window.titleBarStyle": "native",
-  "breadcrumbs.enabled": false,
   "workbench.editor.showIcons": false,
   "workbench.editor.swipeToNavigate": true,
   "workbench.tips.enabled": false,
   "javascript.suggestionActions.enabled": false,
   "typescript.suggestionActions.enabled": false,
-  "elixir.projectPath": "./api",
-  "elixirLS.projectDir": "./api",
   "npm.enableTouchbar": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "haskero.intero.ghciOptions": [],
@@ -121,5 +118,30 @@
       "name": "Vue Green",
       "value": "#42b883"
     }
-  ]
+  ],
+  "ruby.useLanguageServer": true,
+  "ruby.format": "rubocop",
+  "ruby.intellisense": "rubyLocate",
+  "elixir.projectPath": "./",
+  "files.associations": {
+    "*.html.eex": "html",
+    "*.html.leex": "html",
+    "*.leex": "html",
+    ".nomad": "hcl",
+    ".nomad.tpl": "hcl",
+    ".hcl.tpl": "hcl",
+    "*.tpl": "hcl"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Tomorrow Night Bright",
+  "editor.hover.delay": 250,
+  "search.searchOnType": true,
+  "go.toolsManagement.autoUpdate": true,
+  "slides.previewMarkdownFiles": true,
+  "elixirLS.suggestSpecs": false,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 3,
+  "security.workspace.trust.untrustedFiles": "open"
 }
