@@ -9,6 +9,7 @@ export ZSH=/Users/mike/.oh-my-zsh
 
 # Set name of the theme to load.
 ZSH_THEME="robbyrussell"
+
 HIST_STAMPS="mm/dd/yyyy"
 
 # ========================
@@ -29,12 +30,12 @@ export HISTIGNORE=' *'
 
 alias be='bundle exec'
 alias ll='ls -lG'
+alias pack='nomad-pack'
+alias dm='doormat'
 
 # ========================
 #	     ENV VARS
 # ========================
-
-eval "$(direnv hook zsh)"
 
 export MAILCHECK=0
 export EDITOR='code -w'
@@ -44,6 +45,8 @@ export DATABASE_USER=mike
 #         PATH
 # ========================
 
+export PATH=$PATH:$HOME/bin
+
 source $HOME/.g/g.zsh
 source $HOME/.prwd/prwd.zsh
 
@@ -52,11 +55,14 @@ export PATH=$PATH:/Applications
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
-export PATH=$PATH:$HOME/bin
-
-# == ASDF Java ==
-. ~/.asdf/plugins/java/asdf-java-wrapper.zsh
-
 # == GO SETUP ==
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# ======================
+#	  !!! DANGE ZONE !!!
+# ======================
+
+export BUNDLE_GEMS__CONTRIBSYS__COM=
+export GITHUB_PERSONAL_TOKEN=
+export GITHUB_TOKEN=
