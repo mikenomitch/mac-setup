@@ -42,3 +42,8 @@ This is a collection of resources to help set up a Mac OS machine.
 ### iTerm2
 
 - Profiles -> Keys -> Key Mappings -> Presets -> "Natural Text Editing"
+
+### Git
+
+- git config --global user.email "mail@mikenomitch.com"
+- git config --global user.name "Mike Nomitch"
